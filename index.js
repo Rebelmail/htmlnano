@@ -1,1 +1,1 @@
-module.exports = require('./lib/htmlnano').default;
+module.exports = require(__dirname + '/lib/htmlnano').default;
