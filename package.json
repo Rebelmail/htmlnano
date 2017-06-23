@@ -11,6 +11,7 @@
     "pretest": "npm run lint && npm run compile",
     "test": ":",
     "posttest": "mocha --compilers js:babel-core/register --recursive --check-leaks --globals addresses",
+    "postinstall": "npm run compile",
     "prepublish": "npm run compile"
   },
   "keywords": [
